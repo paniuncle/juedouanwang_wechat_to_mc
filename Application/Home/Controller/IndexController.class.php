@@ -60,9 +60,21 @@ class IndexController extends Controller {
 			$openid = I('get.openid');
 			$username = $b['username'];
 			$User = M("user"); // 实例化User对象
-			$data['mycardid'] = $username;
-			$data['openid'] = $openid;
-			$User->data($data)->add();
-			$this->display();
+			$data = $User->where('mycardid="'.$username.'" OR openid="'.$openid.'"')->find();
+			if($data=="NULL" or $data==false){
+				
+				$this->assign('status',"warn");
+				$this->assign('title',"绑定失败");
+				$this->assign('desc',"很抱歉，绑定失败，请您确认是否已经绑定。如果没有请稍后再试");
+
+			}else{
+				$this->assign('status',"success");
+				$this->assign('title',"绑定成功");
+				$this->assign('desc',"您已经成功的绑定了MyCard账号，日后我们会为您提供更加优质的服务");
+				$data['mycardid'] = $username;
+				$data['openid'] = $openid;
+				$User->data($data)->add();
+			}
+	
 	}
 }
