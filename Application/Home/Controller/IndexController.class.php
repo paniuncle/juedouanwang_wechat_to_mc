@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-		$code = $_GET['code'];
+		$code = I('get.code');
 		$base_userinfo = file_get_contents('https://api.weixin.qq.com/sns/oauth2/access_token'.$code.'&grant_type=authorization_code');
 		$decode_base_userinfo = json_decode($base_userinfo, true);
 		$more_userinfo = file_get_contents('https://api.weixin.qq.com/sns/userinfo?access_token='.$decode_base_userinfo['access_token'].'&openid='.$decode_base_userinfo['openid'].'&lang=zh_CN');
@@ -54,6 +54,17 @@ class IndexController extends Controller {
 
 	}
 	public function msg(){
+		
+		function get_user_dp($username){
+			$username = urlencode($username);
+			$base_userinfo = file_get_contents("https://api.mycard.moe/ygopro/arena/user?username=$username");
+			$decode_base_userinfo = json_decode($base_userinfo, true);
+		//	echo $username;
+		//	print_r($decode_base_userinfo);
+			$data['dp'] = $decode_base_userinfo['pt'];
+			$data['rank'] = $decode_base_userinfo['arena_rank'];
+			return $data;
+		}
 			$a=base64_decode($_GET['sso']);
 			$a=urldecode($a);
 			parse_str($a,$b);
@@ -86,6 +97,10 @@ class IndexController extends Controller {
 					$this->assign('desc',"您已经成功的绑定了MyCard账号，日后我们会为您提供更加优质的服务");
 					$data['mycardid'] = $username;
 					$data['openid'] = $openid;
+					$mycard_user = get_user_dp($username);
+					$data['hdp'] = $mycard_user['dp'];
+					$data['hrank'] = $mycard_user['rank'];
+					$data['time'] = time();
 					$User->data($data)->add();
 					$this->assign('openid',$openid);
 					$this->display();
@@ -102,7 +117,13 @@ class IndexController extends Controller {
 	
 	}
 	public	function set(){
+		$code = I('get.code');
 		$openid = I('get.openid');
+		if($code != NULL){
+			$base_userinfo = file_get_contents('https://api.weixin.qq.com/sns/oauth2/access_token'.$code.'&grant_type=authorization_code');
+			$decode_base_userinfo = json_decode($base_userinfo, true);
+			$openid = $decode_base_userinfo['openid'];
+		}
 		$this->assign('openid',$openid);
 		if($openid==NULL){
 			$this->assign('status',"warn");
