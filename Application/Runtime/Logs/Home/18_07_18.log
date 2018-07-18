@@ -1332,3 +1332,507 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
 
+[ 2018-07-18T02:59:30+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005634s ]
+
+[ 2018-07-18T02:59:32+08:00 ] ::1 /?a=msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2018-07-18T03:00:52+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-07-18T03:00:53+08:00 ] ::1 /?a=msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-07-18T03:01:01+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2018-07-18T03:01:02+08:00 ] ::1 /?a=msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-07-18T11:47:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2018-07-18T11:47:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-07-18T11:47:31+08:00 ] ::1 /?a=msg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001856s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001989s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2018-07-18T12:07:35+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2018-07-18T12:07:37+08:00 ] ::1 /?a=binding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-07-18T12:08:07+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2018-07-18T12:08:08+08:00 ] ::1 /?a=binding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-07-18T12:08:21+08:00 ] ::1 /index.php?a=msg&sso=aWQ9NDcwNyZ1c2VybmFtZT0lRTUlQjglOTUlRTUlQjAlQkMmbmFtZT0lRTglOTAlOEMlRTUlQTYlQjklRTUlQUQlOTAmZW1haWw9cGFuaSU0MHlnb3Byby1vY2cuY29tJnBhc3N3b3JkX2hhc2g9N2Q1NDI3ZTY2NTZhZWRiMTNkNjRlYzdhZjkwZjVkNWY4ZGIwODQ4YjQ5ZjNiYzU3YTM4ZjEwOWYwODQxMWQ5MSZzYWx0PTZkMzQyZmQ0MjVhMDYzMWQ5MzY2NjkwZDJlZmU4M2YzJmFjdGl2ZT10cnVlJmFkbWluPXRydWUmYXZhdGFyPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZyZsb2NhbGU9JnJlZ2lzdHJhdGlvbl9pcF9hZGRyZXNzPTEyNy4wLjAuMSUyRjMyJmlwX2FkZHJlc3M9NjEuMTQ5LjkzLjI1MCUyRjMyJmNyZWF0ZWRfYXQ9MjAxMy0wMS0zMVQwOSUzQTMwJTNBNTguMDAwWiZ1cGRhdGVkX2F0PTIwMTctMDQtMDVUMTQlM0ExNCUzQTAzLjkwN1omcmV0dXJuX3Nzb191cmw9aHR0cCUzQSUyRiUyRmxvY2FsaG9zdCUyRmluZGV4LnBocCUzRmElM0Rtc2cmbm9uY2U9MjY1NzgxZDkzMWNlMGJkMzI4ODUzZmQzZTU1NjI5NjM2ZTE2YTU2N2U4MTA2NTAwZjA4MjkxZWQ2NGVkMjI4MTNiYzMzNDYyZDBmYmFlMWVhZTlkNjBhNWE1MzkwNTlkNjdmOThjOWI1NmJhOTIxMmZmOTY3YzIwZTVlOWUzNWEmZXh0ZXJuYWxfaWQ9NDcwNyZhdmF0YXJfdXJsPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZw%3D%3D&sig=28673bc641ac3793c63e0413aaea9c28189871ae5fe3ff742941523c59a99b62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2018-07-18T12:09:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-07-18T12:09:54+08:00 ] ::1 /?a=binding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2018-07-18T12:09:55+08:00 ] ::1 /index.php?a=msg&sso=aWQ9NDcwNyZ1c2VybmFtZT0lRTUlQjglOTUlRTUlQjAlQkMmbmFtZT0lRTglOTAlOEMlRTUlQTYlQjklRTUlQUQlOTAmZW1haWw9cGFuaSU0MHlnb3Byby1vY2cuY29tJnBhc3N3b3JkX2hhc2g9N2Q1NDI3ZTY2NTZhZWRiMTNkNjRlYzdhZjkwZjVkNWY4ZGIwODQ4YjQ5ZjNiYzU3YTM4ZjEwOWYwODQxMWQ5MSZzYWx0PTZkMzQyZmQ0MjVhMDYzMWQ5MzY2NjkwZDJlZmU4M2YzJmFjdGl2ZT10cnVlJmFkbWluPXRydWUmYXZhdGFyPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZyZsb2NhbGU9JnJlZ2lzdHJhdGlvbl9pcF9hZGRyZXNzPTEyNy4wLjAuMSUyRjMyJmlwX2FkZHJlc3M9NjEuMTQ5LjkzLjI1MCUyRjMyJmNyZWF0ZWRfYXQ9MjAxMy0wMS0zMVQwOSUzQTMwJTNBNTguMDAwWiZ1cGRhdGVkX2F0PTIwMTctMDQtMDVUMTQlM0ExNCUzQTAzLjkwN1omcmV0dXJuX3Nzb191cmw9aHR0cCUzQSUyRiUyRmxvY2FsaG9zdCUyRmluZGV4LnBocCUzRmElM0Rtc2cmbm9uY2U9NWNlMDNlNTliYjNiMzJkMTAwYjJiOTI0NjQyNTdkNDQ2OWRjNDgzNGQ0OTZmNGUxMWUyZjAyMzZlM2EwMGNjOWE1YzlhNWY5ZjIwZDYwZjU1N2FhMjQ3OWMyMzU0MzkzYmVkZmEzN2U5MWIwODRjNGI2MjlkMDY1ZGJjYTllNGMmZXh0ZXJuYWxfaWQ9NDcwNyZhdmF0YXJfdXJsPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZw%3D%3D&sig=f7b1c0eb6e0822c162373c298fb443b0e41e020eebb31594659f9dc213ec4634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-07-18T12:11:02+08:00 ] ::1 /index.php?a=msg&sso=aWQ9NDcwNyZ1c2VybmFtZT0lRTUlQjglOTUlRTUlQjAlQkMmbmFtZT0lRTglOTAlOEMlRTUlQTYlQjklRTUlQUQlOTAmZW1haWw9cGFuaSU0MHlnb3Byby1vY2cuY29tJnBhc3N3b3JkX2hhc2g9N2Q1NDI3ZTY2NTZhZWRiMTNkNjRlYzdhZjkwZjVkNWY4ZGIwODQ4YjQ5ZjNiYzU3YTM4ZjEwOWYwODQxMWQ5MSZzYWx0PTZkMzQyZmQ0MjVhMDYzMWQ5MzY2NjkwZDJlZmU4M2YzJmFjdGl2ZT10cnVlJmFkbWluPXRydWUmYXZhdGFyPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZyZsb2NhbGU9JnJlZ2lzdHJhdGlvbl9pcF9hZGRyZXNzPTEyNy4wLjAuMSUyRjMyJmlwX2FkZHJlc3M9NjEuMTQ5LjkzLjI1MCUyRjMyJmNyZWF0ZWRfYXQ9MjAxMy0wMS0zMVQwOSUzQTMwJTNBNTguMDAwWiZ1cGRhdGVkX2F0PTIwMTctMDQtMDVUMTQlM0ExNCUzQTAzLjkwN1omcmV0dXJuX3Nzb191cmw9aHR0cCUzQSUyRiUyRmxvY2FsaG9zdCUyRmluZGV4LnBocCUzRmElM0Rtc2cmbm9uY2U9NWNlMDNlNTliYjNiMzJkMTAwYjJiOTI0NjQyNTdkNDQ2OWRjNDgzNGQ0OTZmNGUxMWUyZjAyMzZlM2EwMGNjOWE1YzlhNWY5ZjIwZDYwZjU1N2FhMjQ3OWMyMzU0MzkzYmVkZmEzN2U5MWIwODRjNGI2MjlkMDY1ZGJjYTllNGMmZXh0ZXJuYWxfaWQ9NDcwNyZhdmF0YXJfdXJsPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZw%3D%3D&sig=f7b1c0eb6e0822c162373c298fb443b0e41e020eebb31594659f9dc213ec4634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2018-07-18T12:11:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2018-07-18T12:11:28+08:00 ] ::1 /?a=binding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-07-18T12:11:29+08:00 ] ::1 /index.php?a=msg&sso=aWQ9NDcwNyZ1c2VybmFtZT0lRTUlQjglOTUlRTUlQjAlQkMmbmFtZT0lRTglOTAlOEMlRTUlQTYlQjklRTUlQUQlOTAmZW1haWw9cGFuaSU0MHlnb3Byby1vY2cuY29tJnBhc3N3b3JkX2hhc2g9N2Q1NDI3ZTY2NTZhZWRiMTNkNjRlYzdhZjkwZjVkNWY4ZGIwODQ4YjQ5ZjNiYzU3YTM4ZjEwOWYwODQxMWQ5MSZzYWx0PTZkMzQyZmQ0MjVhMDYzMWQ5MzY2NjkwZDJlZmU4M2YzJmFjdGl2ZT10cnVlJmFkbWluPXRydWUmYXZhdGFyPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZyZsb2NhbGU9JnJlZ2lzdHJhdGlvbl9pcF9hZGRyZXNzPTEyNy4wLjAuMSUyRjMyJmlwX2FkZHJlc3M9NjEuMTQ5LjkzLjI1MCUyRjMyJmNyZWF0ZWRfYXQ9MjAxMy0wMS0zMVQwOSUzQTMwJTNBNTguMDAwWiZ1cGRhdGVkX2F0PTIwMTctMDQtMDVUMTQlM0ExNCUzQTAzLjkwN1omcmV0dXJuX3Nzb191cmw9aHR0cCUzQSUyRiUyRmxvY2FsaG9zdCUyRmluZGV4LnBocCUzRmElM0Rtc2cmbm9uY2U9NTI3ODY0NGFhMWQ2NTVhY2FlYzEzZTA4OTI5NGJmYWIyNjhiODgwOWYxYjk1NWQxMDNjZDNkZTJlNGVhOGFjMTM2YTFmZjAyZjNlNjhhZjI3ODAwNDBkNGQ2NzFlNzQ5YmI2NTA4ZTgzYjlkM2MyYmVjOWM4YTE4OThiYjlmMWMmZXh0ZXJuYWxfaWQ9NDcwNyZhdmF0YXJfdXJsPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZw%3D%3D&sig=4ae6eb3d9aaeb3460cdde159d92e218e1c6996881daea5e051ad9f496d9806f4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-07-18T12:12:49+08:00 ] ::1 /index.php?a=msg&sso=aWQ9NDcwNyZ1c2VybmFtZT0lRTUlQjglOTUlRTUlQjAlQkMmbmFtZT0lRTglOTAlOEMlRTUlQTYlQjklRTUlQUQlOTAmZW1haWw9cGFuaSU0MHlnb3Byby1vY2cuY29tJnBhc3N3b3JkX2hhc2g9N2Q1NDI3ZTY2NTZhZWRiMTNkNjRlYzdhZjkwZjVkNWY4ZGIwODQ4YjQ5ZjNiYzU3YTM4ZjEwOWYwODQxMWQ5MSZzYWx0PTZkMzQyZmQ0MjVhMDYzMWQ5MzY2NjkwZDJlZmU4M2YzJmFjdGl2ZT10cnVlJmFkbWluPXRydWUmYXZhdGFyPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZyZsb2NhbGU9JnJlZ2lzdHJhdGlvbl9pcF9hZGRyZXNzPTEyNy4wLjAuMSUyRjMyJmlwX2FkZHJlc3M9NjEuMTQ5LjkzLjI1MCUyRjMyJmNyZWF0ZWRfYXQ9MjAxMy0wMS0zMVQwOSUzQTMwJTNBNTguMDAwWiZ1cGRhdGVkX2F0PTIwMTctMDQtMDVUMTQlM0ExNCUzQTAzLjkwN1omcmV0dXJuX3Nzb191cmw9aHR0cCUzQSUyRiUyRmxvY2FsaG9zdCUyRmluZGV4LnBocCUzRmElM0Rtc2cmbm9uY2U9NTI3ODY0NGFhMWQ2NTVhY2FlYzEzZTA4OTI5NGJmYWIyNjhiODgwOWYxYjk1NWQxMDNjZDNkZTJlNGVhOGFjMTM2YTFmZjAyZjNlNjhhZjI3ODAwNDBkNGQ2NzFlNzQ5YmI2NTA4ZTgzYjlkM2MyYmVjOWM4YTE4OThiYjlmMWMmZXh0ZXJuYWxfaWQ9NDcwNyZhdmF0YXJfdXJsPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZw%3D%3D&sig=4ae6eb3d9aaeb3460cdde159d92e218e1c6996881daea5e051ad9f496d9806f4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003602s ]
+
+[ 2018-07-18T12:13:51+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-07-18T12:13:52+08:00 ] ::1 /?a=binding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2018-07-18T12:14:52+08:00 ] ::1 /?a=binding
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-07-18T12:15:02+08:00 ] ::1 /index.php?a=msg&sso=aWQ9NDcwNyZ1c2VybmFtZT0lRTUlQjglOTUlRTUlQjAlQkMmbmFtZT0lRTglOTAlOEMlRTUlQTYlQjklRTUlQUQlOTAmZW1haWw9cGFuaSU0MHlnb3Byby1vY2cuY29tJnBhc3N3b3JkX2hhc2g9N2Q1NDI3ZTY2NTZhZWRiMTNkNjRlYzdhZjkwZjVkNWY4ZGIwODQ4YjQ5ZjNiYzU3YTM4ZjEwOWYwODQxMWQ5MSZzYWx0PTZkMzQyZmQ0MjVhMDYzMWQ5MzY2NjkwZDJlZmU4M2YzJmFjdGl2ZT10cnVlJmFkbWluPXRydWUmYXZhdGFyPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZyZsb2NhbGU9JnJlZ2lzdHJhdGlvbl9pcF9hZGRyZXNzPTEyNy4wLjAuMSUyRjMyJmlwX2FkZHJlc3M9NjEuMTQ5LjkzLjI1MCUyRjMyJmNyZWF0ZWRfYXQ9MjAxMy0wMS0zMVQwOSUzQTMwJTNBNTguMDAwWiZ1cGRhdGVkX2F0PTIwMTctMDQtMDVUMTQlM0ExNCUzQTAzLjkwN1omcmV0dXJuX3Nzb191cmw9aHR0cCUzQSUyRiUyRmxvY2FsaG9zdCUyRmluZGV4LnBocCUzRmElM0Rtc2cmbm9uY2U9YjE0YTFjMjAwNGFiMDRmNmMwZTNlMmFlOTI3OTJkNWFjY2U5ZGFmNWM1NzIzMDY5YzIwZjBmMmIxN2E5YTUzY2E2ZDExYWNjZThlOTA0YzkyNTgzZDE1NzFhMzlkOWMxNDZkNDM1MjM0NzNkMTFmY2RhYzA2NDMwMWJhMmY0MGQmZXh0ZXJuYWxfaWQ9NDcwNyZhdmF0YXJfdXJsPWh0dHBzJTNBJTJGJTJGeWdvYmJzLmNvbSUyRnVwbG9hZHMlMkZkZWZhdWx0JTJGb3JpZ2luYWwlMkYyWCUyRmMlMkZjNzQ1MzllMDdiOGUzOGJlNDcyZjc0NmMzMDM1NzM4YWEyOWFmOWRmLmpwZw%3D%3D&sig=de3b72fce20318a60b0ed06d17075df0f4cefaac06317d4a1b134b6d96114180
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2018-07-18T12:25:55+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-07-18T12:38:59+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+NOTIC: [8] Undefined index: code /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 6 行.
+NOTIC: [8] Undefined index: access_token /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: openid /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: openid /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003330s ]
+
+[ 2018-07-18T12:39:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+NOTIC: [8] Undefined index: code /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 6 行.
+NOTIC: [8] Undefined index: access_token /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: openid /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: openid /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002171s ]
+
+[ 2018-07-18T12:40:02+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+NOTIC: [8] Undefined index: code /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 6 行.
+NOTIC: [8] Undefined index: access_token /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: openid /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: openid /Users/liushuoyan/Sites/Application/Home/Controller/IndexController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004036s ]
+

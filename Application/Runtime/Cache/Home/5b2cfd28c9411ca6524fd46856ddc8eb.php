@@ -3,12 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>绑定MyCard账号</title>
-	<link rel="stylesheet" href="./public/css/weui.min.css">
-	<link rel="stylesheet" href="./public/css/main.css">	
-	<script src="./public/js/weui.min.js"></script>
+	<link rel="stylesheet" href="./Public/css/weui.min.css">
+	<link rel="stylesheet" href="./Public/css/main.css">	
+	<script src="./Public/js/weui.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="format-detection" content="telephone=no" />
+	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"> </script>
+
 </head>
 <body>
 
@@ -21,7 +23,7 @@
         </div>
         <div class="weui-msg__opr-area">
             <p class="weui-btn-area">
-                <a href="wx.closeWindow();" class="weui-btn weui-btn_primary">关闭</a>
+                <a href="javascript:wx.closeWindow();" class="weui-btn weui-btn_primary">关闭</a>
             </p>
         </div>
         <div class="weui-msg__extra-area">
