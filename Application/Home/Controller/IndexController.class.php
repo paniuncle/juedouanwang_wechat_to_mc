@@ -60,21 +60,65 @@ class IndexController extends Controller {
 			$openid = I('get.openid');
 			$username = $b['username'];
 			$User = M("user"); // 实例化User对象
-			$data = $User->where('mycardid="'.$username.'" OR openid="'.$openid.'"')->find();
-			if($data=="NULL" or $data==false){
-				
-				$this->assign('status',"warn");
-				$this->assign('title',"绑定失败");
-				$this->assign('desc',"很抱歉，绑定失败，请您确认是否已经绑定。如果没有请稍后再试");
-
+			$data = $User->where('`mycardid`="'.$username.'" OR `openid`="'.$openid.'"')->find();
+			if($username != NULL){
+				//mycard验证成功
+				if($data!=NULL){
+					//存在用户了
+					$this->assign('openid',$openid);
+					$this->assign('status',"warn");
+					$this->assign('title',"重复绑定");
+					$this->assign('desc',"很抱歉，您已经绑定过账号了");
+					$this->assign('openid',$openid);
+					$this->display();
+				}elseif($data==false){
+					//系统出现错误
+					$this->assign('openid',$openid);
+					$this->assign('status',"warn");
+					$this->assign('title',"绑定失败");
+					$this->assign('desc',"系统出现问题，请您稍后再试");
+					$this->display();	
+				}else{
+					//绑定成功了
+					$this->assign('openid',$openid);
+					$this->assign('status',"success");
+					$this->assign('title',"绑定成功");
+					$this->assign('desc',"您已经成功的绑定了MyCard账号，日后我们会为您提供更加优质的服务");
+					$data['mycardid'] = $username;
+					$data['openid'] = $openid;
+					$User->data($data)->add();
+					$this->assign('openid',$openid);
+					$this->display();
+				}
 			}else{
-				$this->assign('status',"success");
-				$this->assign('title',"绑定成功");
-				$this->assign('desc',"您已经成功的绑定了MyCard账号，日后我们会为您提供更加优质的服务");
-				$data['mycardid'] = $username;
-				$data['openid'] = $openid;
-				$User->data($data)->add();
+				//没有成功验证
+					$this->assign('openid',$openid);
+					$this->assign('status',"warn");
+					$this->assign('title',"非法来源");
+					$this->assign('desc',"非法来源，请您从微信公众号进入");
+					$this->display();	
 			}
+			
 	
+	}
+	public	function set(){
+		$openid = I('get.openid');
+		$this->assign('openid',$openid);
+		if($openid==NULL){
+			$this->fetch("<script>WeixinJSBridge.call('closeWindow');</script>");
+		}else{
+			$this->display();		
+		}
+	}
+	public function setted(){
+		$openid = I('post.openid');
+		$value = I('post.select1');
+		if($openid !=NULL and $value !=NULL){
+			$User = M("user"); // 实例化User对象
+			$data['ts'] = $value;
+			$User->where('`openid=`'.$openid)->data($data)->save();
+		}else{
+			$this->fetch("<script>WeixinJSBridge.call('closeWindow');</script>");
+		}
 	}
 }

@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>绑定MyCard账号</title>
+	<meta charset="UTF-8">
+	<title>推送频率设置</title>
 	<link rel="stylesheet" href="./Public/css/weui.min.css">
 	<link rel="stylesheet" href="./Public/css/main.css">	
 	<script src="./Public/js/weui.min.js"></script>
@@ -10,17 +10,10 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="format-detection" content="telephone=no" />
 </head>
+
 <body>
-	<br>
-	<div class="head">
-		<img class="headimg" src="./Public/headlogo.png" />
-	</div>
-	<br >
-    <div class="weui-cells__title">MyCard账号信息</div>
-    <div class="weui-btn-area">
-    	<a class="weui-btn weui-btn_primary" href="?a=binding&openid={$openid}" id="showTooltips">绑定账号</a>
-	</div>
-<!--        <div class="weui-cells__title">推送积分变动频率</div>
+   		<form method="post" action="./index.php?a=setted">
+    	<div class="weui-cells__title">推送积分变动频率</div>
 		<div class="weui-cell weui-cell_select">
 			<div class="weui-cell__bd">
 				<select class="weui-select" name="select1">
@@ -30,9 +23,11 @@
 					<option value="4">每月推送</option>
 				</select>
 			</div>
-		</div> -->
+			<input name="openid" type="hidden" value="{$openid}">
+		</div>
+	    <div class="weui-btn-area">
+			<input type="submit" class="weui-btn weui-btn_primary" id="showTooltips" value="保存"/>
+		</div>
+		</form>
 </body>
 </html>
-
-
-
