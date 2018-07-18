@@ -14,16 +14,21 @@
 </head>
 <body>
 
-<div class="page msg_success js_show">
+<div class="page msg_<?php echo ($status); ?> js_show">
     <div class="weui-msg">
-        <div class="weui-msg__icon-area"><i class="weui-icon-success weui-icon_msg"></i></div>
+        <div class="weui-msg__icon-area"><i class="weui-icon-<?php echo ($status); ?> weui-icon_msg"></i></div>
         <div class="weui-msg__text-area">
-            <h2 class="weui-msg__title">绑定成功</h2>
-            <p class="weui-msg__desc">您已经成功的绑定了MyCard账号，日后我们会为您提供更加优质的服务</p>
+            <h2 class="weui-msg__title"><?php echo ($title); ?></h2>
+            <p class="weui-msg__desc"><?php echo ($desc); ?></p>
         </div>
         <div class="weui-msg__opr-area">
             <p class="weui-btn-area">
-                <a href="javascript:wx.closeWindow();" class="weui-btn weui-btn_primary">关闭</a>
+                <a href="javascript:WeixinJSBridge.call('closeWindow');" class="weui-btn weui-btn_primary">关闭</a>
+            </p>
+        </div>
+        <div class="weui-msg__opr-area">
+            <p class="weui-btn-area">
+                <a href="" class="weui-btn weui-btn_default">设置</a>
             </p>
         </div>
         <div class="weui-msg__extra-area">
