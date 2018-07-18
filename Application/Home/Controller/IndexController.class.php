@@ -105,7 +105,10 @@ class IndexController extends Controller {
 		$openid = I('get.openid');
 		$this->assign('openid',$openid);
 		if($openid==NULL){
-			$this->fetch("<script>WeixinJSBridge.call('closeWindow');</script>");
+			$this->assign('status',"warn");
+			$this->assign('title',"非法来源");
+			$this->assign('desc',"非法来源，请您从微信公众号进入");
+			$this->display('msg'); 
 		}else{
 			$this->display();		
 		}
@@ -116,9 +119,17 @@ class IndexController extends Controller {
 		if($openid !=NULL and $value !=NULL){
 			$User = M("user"); // 实例化User对象
 			$data['ts'] = $value;
-			$User->where('`openid=`'.$openid)->data($data)->save();
+			$User->where('`openid`="'.$openid.'"')->data($data)->save();
+			$this->assign('openid',$openid);
+			$this->assign('status',"success");
+			$this->assign('title',"设置成功");
+			$this->assign('desc',"您已经成功的更改了推送频率，日后我们会为您提供更加优质的服务");
+			$this->display('msg');
 		}else{
-			$this->fetch("<script>WeixinJSBridge.call('closeWindow');</script>");
+			$this->assign('status',"warn");
+			$this->assign('title',"非法来源");
+			$this->assign('desc',"非法来源，请您从微信公众号进入");
+			$this->display('msg');	
 		}
 	}
 }
