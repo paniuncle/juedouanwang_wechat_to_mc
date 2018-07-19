@@ -4,7 +4,7 @@ use Think\Controller;
 class IndexController extends Controller {
     public function index(){
 		$code = I('get.code');
-		$base_userinfo = file_get_contents('https://api.weixin.qq.com/sns/oauth2/access_token'.$code.'&grant_type=authorization_code');
+		$base_userinfo = file_get_contents('https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxc11bd7c19634ea3b&secret=&code='.$code.'&grant_type=authorization_code');
 		$decode_base_userinfo = json_decode($base_userinfo, true);
 		$more_userinfo = file_get_contents('https://api.weixin.qq.com/sns/userinfo?access_token='.$decode_base_userinfo['access_token'].'&openid='.$decode_base_userinfo['openid'].'&lang=zh_CN');
 		$end_userinfo = json_decode($more_userinfo, true);
@@ -14,7 +14,7 @@ class IndexController extends Controller {
 	public function binding(){
 		$openid = I('get.openid');
 		$me = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME'].'?a=msg&openid='.$openid;
-		$sso_secret = '';
+		$sso_secret = 'zsZv6LXHDwwtUAGa';
 		$discourse_url = 'https://ygobbs.com';
 		if(!empty($_GET) and isset($_GET['sso'])){
 			$sso = $_GET['sso'];
@@ -32,7 +32,6 @@ class IndexController extends Controller {
 			parse_str(base64_decode($sso), $query);
 
 			// login user
-			set_key('login', $query);
 			header("Access-Control-Allow-Origin: *");
 			die();
 		}
@@ -54,16 +53,14 @@ class IndexController extends Controller {
 
 	}
 	public function msg(){
-		
-		function get_user_dp($username){
-			$username = urlencode($username);
+	
+		function get_user_dp($usernames){
+			$username = urlencode($usernames);
 			$base_userinfo = file_get_contents("https://api.mycard.moe/ygopro/arena/user?username=$username");
 			$decode_base_userinfo = json_decode($base_userinfo, true);
-		//	echo $username;
-		//	print_r($decode_base_userinfo);
-			$data['dp'] = $decode_base_userinfo['pt'];
-			$data['rank'] = $decode_base_userinfo['arena_rank'];
-			return $data;
+			$datas['dp'] = $decode_base_userinfo['pt'];
+			$datas['rank'] = $decode_base_userinfo['arena_rank'];
+			return $datas;
 		}
 			$a=base64_decode($_GET['sso']);
 			$a=urldecode($a);
@@ -71,7 +68,7 @@ class IndexController extends Controller {
 			$openid = I('get.openid');
 			$username = $b['username'];
 			$User = M("user"); // 实例化User对象
-			$data = $User->where('`mycardid`="'.$username.'" OR `openid`="'.$openid.'"')->find();
+			$data = $User->where('`mycardid` = "'.$username.'" OR `openid` = "'.$openid.'"')->find();
 			if($username != NULL){
 				//mycard验证成功
 				if($data!=NULL){
@@ -82,14 +79,7 @@ class IndexController extends Controller {
 					$this->assign('desc',"很抱歉，您已经绑定过账号了");
 					$this->assign('openid',$openid);
 					$this->display();
-				}elseif($data==false){
-					//系统出现错误
-					$this->assign('openid',$openid);
-					$this->assign('status',"warn");
-					$this->assign('title',"绑定失败");
-					$this->assign('desc',"系统出现问题，请您稍后再试");
-					$this->display();	
-				}else{
+				}elseif($data == NULL){
 					//绑定成功了
 					$this->assign('openid',$openid);
 					$this->assign('status',"success");
@@ -104,6 +94,13 @@ class IndexController extends Controller {
 					$User->data($data)->add();
 					$this->assign('openid',$openid);
 					$this->display();
+				}else{
+					//系统出现错误
+					$this->assign('openid',$openid);
+					$this->assign('status',"warn");
+					$this->assign('title',"绑定失败");
+					$this->assign('desc',"系统出现问题，请您稍后再试");
+					$this->display();	
 				}
 			}else{
 				//没有成功验证
